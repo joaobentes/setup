@@ -1,6 +1,6 @@
 #!/bin/sh
 
-USER=$1
+USER="joao"
 NOPWD="/etc/sudoers.d/nopwd"
 TMP="/etc/sudoers.tmp"
 

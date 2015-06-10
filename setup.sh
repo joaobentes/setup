@@ -1,7 +1,7 @@
 #!/bin/sh
 # main setup script for configuring an Ubuntu 14.04 LTS Digital Ocean droplet
 
-USER=$1
+USER="joao"
 
 # install git
 sudo apt-get install -y git
@@ -65,7 +65,7 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/tibotiber/dotfiles.git
+git clone https://github.com/joaobentes/dotfiles.git
 cd dotfiles/
 git submodule update --init --recursive
 cd
