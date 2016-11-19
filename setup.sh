@@ -1,7 +1,7 @@
 #!/bin/sh
 # main setup script for configuring an Ubuntu 14.04 LTS Digital Ocean droplet
 
-USER="ubuntu"
+USER="joao"
 
 # install git
 sudo apt-get install -y git
