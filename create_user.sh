@@ -1,6 +1,6 @@
 #!/bin/sh
 
-USER="joao"
+USER="marea"
 NOPWD="/etc/sudoers.d/nopwd"
 TMP="/etc/sudoers.tmp"
 
